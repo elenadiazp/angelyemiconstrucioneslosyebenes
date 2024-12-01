@@ -1,15 +1,29 @@
-@use "layout";
-@use "header";
-@use "footer";
-@use "globals";
+@use "layout" as *;
+@use "header" as *;
+@use "footer" as *;
+@use "globals" as *;
+@use "mixins" as *;
 
-main{
+main {
     background-image: url(../../assets/img/casa.JPG);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
     width: 100%;
-    height:100vh ;
-    padding: 5px;
-    @include button($secundary-white,$secundary-black);
+    height: 100vh;
+   
+    .caja{
+        background: $primary-transp1;
+        text-align: center;
+        color:$secundary-white;
+    }
+    button{
+        @include btn($secundary-white,$secundary-black);
+        &:hover{
+            background-color: $secundary-grey;
+            border: 2px solid $secundary-grey;
+        }
+    }
+    
+   
 }

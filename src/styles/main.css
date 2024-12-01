@@ -1,17 +1,100 @@
-/* Error: Undefined mixin.
- *    ,
- * 14 |     @include button($secundary-white,$secundary-black);
- *    |     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
- *    '
- *   src\styles\main.scss 14:5  root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: "Error: Undefined mixin.\a    \2577 \a 14 \2502      @include button($secundary-white,$secundary-black);\d\a    \2502      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\a    \2575 \a   src\\styles\\main.scss 14:5  root stylesheet";
+.row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  padding: 1rem 4rem;
+}
+
+.me-1 {
+  margin-right: 2rem;
+}
+
+footer {
+  padding: 1rem 4rem;
+}
+
+.caja {
+  display: inline-block;
+}
+
+.container-main {
+  display: flex;
+  flex-direction: column;
+  width: 20rem;
+}
+
+/* Mode 1 */
+/* number */
+/* string */
+/* Mode 1 */
+/* number */
+/* Mode 1 */
+/* color */
+/* Mode 1 */
+/* number */
+header {
+  background-color: #7a2b2e;
+}
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header nav img {
+  width: 15rem;
+}
+header nav div ul li {
+  list-style: none;
+}
+header nav div ul li a {
+  color: #ffffff;
+  text-decoration: none;
+}
+header nav div ul li a:hover {
+  color: #d7d7d7;
+}
+
+footer {
+  background-color: #7a2b2e;
+  color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+main {
+  background-image: url(../../assets/img/casa.JPG);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 100vh;
+}
+main .caja {
+  background: rgba(122, 43, 46, 0.7411764706);
+  text-align: center;
+  color: #ffffff;
+}
+main button {
+  background-color: #ffffff;
+  color: #000000;
+  padding: 0.5rem 1rem;
+  border: 2px solid #ffffff;
+  border-radius: 20px;
+  cursor: pointer;
+}
+main button:hover {
+  background-color: #d7d7d7;
+  border: 2px solid #d7d7d7;
+}
+
+/*# sourceMappingURL=main.css.map */

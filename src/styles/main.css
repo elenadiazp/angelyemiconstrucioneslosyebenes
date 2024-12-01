@@ -1,0 +1,40 @@
+/* Mode 1 */
+/* number */
+/* string */
+/* Mode 1 */
+/* number */
+/* Mode 1 */
+/* color */
+/* Mode 1 */
+/* number */
+header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #7a2b2e;
+}
+header nav img {
+  width: 1rem;
+}
+header nav div ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+header nav div ul li a {
+  color: #ffffff;
+  text-decoration: none;
+  list-style: none;
+}
+header nav div ul li a:hover {
+  color: #d7d7d7;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #7a2b2e;
+}
+
+/*# sourceMappingURL=main.css.map */

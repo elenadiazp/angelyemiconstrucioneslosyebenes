@@ -1,0 +1,6 @@
+@use "globals" as *;
+footer{
+    @include flex-row;
+    background-color: $primary-burdeos;
+    
+}

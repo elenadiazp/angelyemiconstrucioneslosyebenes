@@ -1,0 +1,29 @@
+@use "globals" as *;
+
+header {
+    @include flex-row;
+    background-color: $primary-burdeos;
+
+    nav {
+        img {
+            width: 1rem;
+        }
+    }
+
+    nav div ul {
+
+        @include flex-row;
+
+        li {
+            a {
+                @include enlaces;
+
+                &:hover {
+                    color: $secundary-grey;
+                }
+            }
+
+
+        }
+    }
+}

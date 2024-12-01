@@ -1,0 +1,19 @@
+@use "variables" as *;
+
+@mixin flex-row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+@mixin button($bg-color, $text-color) {
+    background-color: $bg-color;
+    color: $text-color;
+    padding: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  @mixin enlaces{
+    color: $secundary-white;
+    text-decoration: none;
+    list-style: none;
+  }

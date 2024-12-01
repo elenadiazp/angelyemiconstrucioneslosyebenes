@@ -68,15 +68,19 @@ footer {
   margin-top: 5rem;
 }
 .cajon2 .caja1 {
+  display: flex;
+  align-items: center;
   padding: 4rem;
   margin-right: 2rem;
 }
 .cajon2 .caja2 {
   padding: 4rem;
+  margin-left: 2rem;
 }
 
 input, textarea {
   margin-top: 1rem;
+  padding: 0.5rem 1rem;
 }
 
 /* Mode 1 */
@@ -134,6 +138,7 @@ main .encabezado {
   color: #ffffff;
 }
 main .encabezado p {
+  font-size: 20px;
   font-family: "Montserrat", sans-serif;
 }
 
@@ -151,10 +156,34 @@ main .encabezado p {
   color: #ffffff;
   font-family: "Montserrat", sans-serif;
 }
+.cajon2 form div {
+  text-align: center;
+}
 
-input, textarea {
+input,
+textarea {
   border-radius: 10px;
   border: 2px solid #ffffff;
+  width: 80%;
+}
+
+button {
+  background-color: #7a2b2e;
+  color: #ffffff;
+  padding: 0.5rem 3rem;
+  border: 2px solid #7a2b2e;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+}
+button:hover {
+  background-color: #561e20;
+  border: 2px solid #561e20;
+}
+button a {
+  color: #ffffff;
+  text-decoration: none;
 }
 
 /*# sourceMappingURL=main2.css.map */

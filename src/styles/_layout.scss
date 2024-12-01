@@ -20,9 +20,18 @@ footer{
 }
 .caja{
     display: inline-block;
+    padding: 2rem;
 }
 .container-main{
     display: flex;
     flex-direction: column;
     width: 20rem;
+}
+h2{
+    margin: 0;
+    padding: 0;
+}
+p{
+    margin: 0;
+    padding: 0;
 }

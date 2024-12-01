@@ -16,9 +16,20 @@ main {
         background: $primary-transp1;
         text-align: center;
         color:$secundary-white;
+        h2{
+            font-family: 'Montserrat', sans-serif;
+            font-size: 36px;
+            font-weight: 400;
+        }
+        p{
+            font-family: 'Jockey One', sans-serif;
+            font-size: 20px;
+        }
     }
+   
     button{
         @include btn($secundary-white,$secundary-black);
+        font-family: 'Montserrat', sans-serif;
         &:hover{
             background-color: $secundary-grey;
             border: 2px solid $secundary-grey;

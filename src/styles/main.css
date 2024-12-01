@@ -24,12 +24,23 @@ footer {
 
 .caja {
   display: inline-block;
+  padding: 2rem;
 }
 
 .container-main {
   display: flex;
   flex-direction: column;
   width: 20rem;
+}
+
+h2 {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  margin: 0;
+  padding: 0;
 }
 
 /* Mode 1 */
@@ -42,6 +53,7 @@ footer {
 /* Mode 1 */
 /* number */
 header {
+  font-family: "Montserrat", sans-serif;
   background-color: #7a2b2e;
 }
 header nav {
@@ -64,6 +76,7 @@ header nav div ul li a:hover {
 }
 
 footer {
+  font-family: "Montserrat", sans-serif;
   background-color: #7a2b2e;
   color: #ffffff;
   display: flex;
@@ -84,6 +97,15 @@ main .caja {
   text-align: center;
   color: #ffffff;
 }
+main .caja h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 36px;
+  font-weight: 400;
+}
+main .caja p {
+  font-family: "Jockey One", sans-serif;
+  font-size: 20px;
+}
 main button {
   background-color: #ffffff;
   color: #000000;
@@ -91,6 +113,7 @@ main button {
   border: 2px solid #ffffff;
   border-radius: 20px;
   cursor: pointer;
+  font-family: "Montserrat", sans-serif;
 }
 main button:hover {
   background-color: #d7d7d7;

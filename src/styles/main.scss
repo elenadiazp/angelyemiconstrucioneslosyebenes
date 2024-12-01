@@ -31,6 +31,7 @@ main {
     button{
         @include btn($secundary-white,$secundary-black);
         font-family: 'Montserrat', sans-serif;
+       
         &:hover{
             background-color: $secundary-grey;
             border: 2px solid $secundary-grey;

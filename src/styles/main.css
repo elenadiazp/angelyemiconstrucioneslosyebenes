@@ -31,10 +31,10 @@ footer {
   margin-left: 4rem;
   display: flex;
   flex-direction: column;
-  width: 20rem;
   position: relative;
   top: 50%;
   transform: translateY(-50%);
+  width: 20rem;
 }
 .container-main .caja {
   display: inline-block;

@@ -23,3 +23,7 @@
     justify-content: space-between;
     align-items: center;
   }
+ @mixin text-f{
+  color:$secundary-white;
+  font-family: 'Montserrat', sans-serif;
+ }

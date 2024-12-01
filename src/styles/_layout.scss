@@ -52,3 +52,31 @@ footer {
     }
    
 }
+.encabezado{
+    position: relative;
+    top: 5%;
+   
+    display: flex;
+    justify-content: center;
+    padding:1rem;
+    p{
+        margin: 0;
+        padding: 0;
+    }
+}
+.cajon2{
+    display: flex;
+    justify-content: center;
+    display: row;
+    margin-top: 5rem;
+    .caja1{
+        padding: 4rem;
+        margin-right: 2rem;
+    }
+    .caja2{
+        padding: 4rem;
+    }
+}
+input, textarea{
+    margin-top: 1rem;
+}

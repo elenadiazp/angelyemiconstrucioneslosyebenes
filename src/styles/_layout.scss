@@ -8,30 +8,48 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    height: 100%;
 }
-header{
+
+header {
     padding: 1rem 4rem;
 }
-.me-1{
+
+.me-1 {
     margin-right: 2rem;
 }
-footer{
+
+.mt-1 {
+    margin-top: 1rem;
+}
+
+footer {
     padding: 1rem 4rem;
 }
-.caja{
-    display: inline-block;
-    padding: 2rem;
-}
-.container-main{
+
+
+.container-main {
+    margin-left: 4rem;
     display: flex;
     flex-direction: column;
     width: 20rem;
-}
-h2{
-    margin: 0;
-    padding: 0;
-}
-p{
-    margin: 0;
-    padding: 0;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+
+    .caja {
+        display: inline-block;
+        padding: 2rem;
+
+        h2 {
+            margin: 0;
+            padding: 0;
+        }
+
+        p {
+            margin: 0;
+            padding: 0;
+        }
+    }
+
 }

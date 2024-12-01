@@ -1,40 +1,17 @@
-/* Mode 1 */
-/* number */
-/* string */
-/* Mode 1 */
-/* number */
-/* Mode 1 */
-/* color */
-/* Mode 1 */
-/* number */
-header {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  background-color: #7a2b2e;
-}
-header nav img {
-  width: 1rem;
-}
-header nav div ul {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
-header nav div ul li a {
-  color: #ffffff;
-  text-decoration: none;
-  list-style: none;
-}
-header nav div ul li a:hover {
-  color: #d7d7d7;
-}
+/* Error: Undefined mixin.
+ *    ,
+ * 14 |     @include button($secundary-white,$secundary-black);
+ *    |     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ *    '
+ *   src\styles\main.scss 14:5  root stylesheet */
 
-footer {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  background-color: #7a2b2e;
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: Undefined mixin.\a    \2577 \a 14 \2502      @include button($secundary-white,$secundary-black);\d\a    \2502      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\a    \2575 \a   src\\styles\\main.scss 14:5  root stylesheet";
 }
-
-/*# sourceMappingURL=main.css.map */

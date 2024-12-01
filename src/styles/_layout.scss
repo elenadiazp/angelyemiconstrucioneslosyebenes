@@ -1,0 +1,20 @@
+.row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    padding: 1rem 4rem;
+}
+.me-1{
+    margin-right: 2rem;
+}
+footer{
+    padding: 1rem 4rem;
+}

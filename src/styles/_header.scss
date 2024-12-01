@@ -1,22 +1,25 @@
 @use "globals" as *;
-
+@use "layout" as *;
 header {
-    @include flex-row;
+  
     background-color: $primary-burdeos;
 
     nav {
+       @include justify-between;
         img {
-            width: 1rem;
+            width: 15rem;
+           
         }
     }
 
     nav div ul {
 
-        @include flex-row;
+       
 
         li {
+            @include listas;
             a {
-                @include enlaces;
+             @include enlaces;
 
                 &:hover {
                     color: $secundary-grey;

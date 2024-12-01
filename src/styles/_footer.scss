@@ -1,6 +1,7 @@
 @use "globals" as *;
+@use "layout" as *;
 footer{
-    @include flex-row;
     background-color: $primary-burdeos;
-    
+    color:$secundary-white;
+    @include justify-between;
 }

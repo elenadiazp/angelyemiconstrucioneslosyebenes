@@ -20,7 +20,7 @@ header {
         li {
             @include listas;
             a {
-             @include enlaces;
+             @include enlaces($secundary-white);
 
                 &:hover {
                     color: $secundary-grey;

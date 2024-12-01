@@ -1,0 +1,103 @@
+.row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  height: 100%;
+}
+
+header {
+  padding: 1rem 4rem;
+}
+
+.me-1 {
+  margin-right: 2rem;
+}
+
+.mt-1 {
+  margin-top: 1rem;
+}
+
+footer {
+  padding: 1rem 4rem;
+}
+
+.container-main {
+  margin-left: 4rem;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 20rem;
+}
+.container-main .caja {
+  display: inline-block;
+  padding: 2rem;
+}
+.container-main .caja h2 {
+  margin: 0;
+  padding: 0;
+}
+.container-main .caja p {
+  margin: 0;
+  padding: 0;
+}
+
+/* Mode 1 */
+/* number */
+/* string */
+/* Mode 1 */
+/* number */
+/* Mode 1 */
+/* color */
+/* Mode 1 */
+/* number */
+header {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  background-color: #7a2b2e;
+}
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header nav img {
+  width: 15rem;
+}
+header nav div ul li {
+  list-style: none;
+}
+header nav div ul li a {
+  color: #ffffff;
+  text-decoration: none;
+}
+header nav div ul li a:hover {
+  color: #d7d7d7;
+}
+
+footer {
+  font-family: "Montserrat", sans-serif;
+  background-color: #7a2b2e;
+  color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+main {
+  background-image: url(../../assets/img/bgformulario.JPG);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 100vh;
+}
+
+/*# sourceMappingURL=main2.css.map */

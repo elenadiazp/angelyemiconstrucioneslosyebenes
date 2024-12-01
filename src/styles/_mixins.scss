@@ -11,8 +11,8 @@
     font-size: 16px;
 
   }
-  @mixin enlaces{
-    color: $secundary-white;
+  @mixin enlaces($color){
+    color: $color;
     text-decoration: none;
   }
   @mixin listas{

@@ -1,0 +1,15 @@
+@use "layout" as *;
+@use "header" as *;
+@use "footer" as *;
+@use "globals" as *;
+@use "mixins" as *;
+ main{
+ 
+    background-image: url(../../assets/img/bgformulario.JPG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    width: 100%;
+    height: 100vh ;
+ }
